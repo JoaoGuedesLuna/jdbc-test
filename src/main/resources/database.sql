@@ -1,0 +1,7 @@
+CREATE DATABASE dbtest;
+
+CREATE TABLE people (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(80) NOT NULL,
+    PRIMARY KEY (id)
+)
